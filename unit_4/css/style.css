@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Raleway|Rubik');
 
-
-
-/*#main_logo_asset{
-	height: 20px;
-	width: 20px;
-	background-color: black;
-}*/
-
+#wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
 .rotating_pics{
 	padding: 10px;
 	width:200px;
@@ -18,8 +14,8 @@
 
 }
 
-.facebook_review{
-	padding: 2px;
+/*#reviews{
+	padding: 10px;
 	width:400px;
 	height:400px;
 	border: 3px solid white;
@@ -27,13 +23,25 @@
 	text-align:center;
 }
 
+#facebook_1{
+	float: center;
+	display: inline;
+}
+
+#facebook_2{
+	float: center;
+	display: inline;
+}*/
+
 .events{
-	padding:10px;
-	width: 50px;
-	height:50px;
-	border:3px solid white;
-	margin: auto;
+	padding:20px;
+	width: 100px;
+	height:80px;
+	border:3px solid black;
+	margin: 20px;
 	text-align:center;
+	display: inline-block;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 #rotating_1{
@@ -43,7 +51,7 @@
 body{
 	background-color: white;
 	color: black;
-	font-family:'Rubik', sans-serif;
+	font-family:'Verdana', sans-serif;
 	font-size: 20px;
 	font height: 2em;
 }
@@ -65,12 +73,6 @@ body{
 }
 */
 
-#google_maps{
-	height: 400px;
-	width: 400px;
-	padding:10px;
-	margin: 5px;
-	border: 5px solid white;
 
 }
 #maps_text{
@@ -82,14 +84,34 @@ body{
 #hero{
 	background: url("../images/main_image.jpg");
 	background-repeat: no-repeat;
-	width: 3800px;
-	height: 750px;
+	padding: 0 20 0 20;
+	border: 3px solid black;
+	margin: auto;
+	height: 800px;
+	text-align: center;
 
 }
 
 
 
+
 h1,h2,h3{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Georgia', serif;
 	font-weight: bold;
+}
+
+
+#google_maps{
+	display: inline-block;
+	text-align: center;
+
+}
+
+#contact_info{
+	padding: 10px
+	border: 10px solid black;
+	margin: 0 auto;
+	display: inline-block;
+	float: center
+
 }
