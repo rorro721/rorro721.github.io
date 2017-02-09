@@ -7,12 +7,13 @@
 <body>
 <div id="wrapper">
 	<header>
-		<a href="index.html"><img src="images/logo_8_mini.png" alt="Logo 8 doble" title="It's our logo!"></a>
-		<nav>
+		<a href="index.html" id="logo"><img src="images/logo_8_mini.png" alt="Logo 8 doble" title="It's our logo!"></a>
+		<nav class="clearfix">
 			<a href="#">About</a>
 			<a href="#">Pricing</a>
 			<a href="#">Classes</a>
 			<a href="#">Events</a>
+			<a href="#">Blog</a>
 		</nav>
 	</header>
 	<!-- This <nav> is being used as the nav bar to be placed underneath the main background picture -->
@@ -28,12 +29,11 @@
 		<p>8 doble is the premier and only climbing gym in San Miguel de allende. Not only does it offer a great community, but the staff is always there to help</p>
 	</section>
 	<section id="info">
-		<aside>
+		<aside class="clearfix">
 			<img src="images/image_asset1.JPG" alt="Kids climbing" title="some of our regulars climbing!" class="image_set1">
-			<img src="images/image_asset2.jpg" alt="climbing!" title="some of our regulars" class="image_set1">
-			<img src="images/image_asset2.jpg" alt="climbing!" title="some of our regulars" class="image_set1">		
+			<img src="images/image_asset2.jpg" alt="climbing!" title="some of our regulars" class="image_set1">	
 		</aside>
-		<article>
+		<article class="clearfix">
 			<h2>What is Rock climbing?</h2>
 			<p>Rock climbing is an activity that consists on ascending a wall with a heavy pendant. It is not only a great excercise but is also a sport that is extremly taxing in not only the body but also the mind. It takes a great deal of mental strength to overcome some climbs, which can be compared with the art of "active meditation."</p>
 			<h2>Why 8 Doble?</h2>
@@ -58,13 +58,14 @@
 		<div class="events"><p>JANUARY<br>11TH</p></div>
 		<div class="events"><p>JANUARY<br>11TH</p></div>
 	</section>
-	<section id="scheduling">
+	<!-- <section id="scheduling">
 		<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/36da79d5-fe0c-481b-82bf-63479b4801bc"><img border="none" src="https://my.setmore.com/images/bookappt/SetMore-book-button.png" alt="Book an appointment with 8 doble using SetMore" /></a>
-	</section>
+	</section> -->
 	<!-- <p>left side to be used with a small contact box to be discussed with mentor if seems logical</p> -->
 	<section id="contact">
 		<div id="google_maps">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119253.88799125771!2d-100.81093522568268!3d20.925029418938905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b51c65fdea0ff%3A0x48140a57b95c0d96!2s8+Doble!5e0!3m2!1ses!2sus!4v1485972757501" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe width="100%" height="560" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119253.88799125771!2d-100.81093522568268!3d20.925029418938905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b51c65fdea0ff%3A0x48140a57b95c0d96!2s8+Doble!5e0!3m2!1ses!2sus!4v1485972757501" frameborder="0" style="border: 0px; border-image: none; height: 467px; width: 560px;">
+            </iframe>
 		</div>
 		<div id="contact_info">
 		<p>Directions</p>
@@ -77,6 +78,9 @@
 		<address>Prolongacion Calzada de la Aurora No.21<br>
 			San Miguel de Allende, Guanajuato</address>
 		</div>
+	</section>
+	<section id="pcitures_2">
+		<img src="images/main_image.jpg" alt="climbing!" title="some of our regulars" id="img_main">	
 	</section>
 	<footer>
 		<p>"The sky is the limit"</p>

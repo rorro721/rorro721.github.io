@@ -1,22 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Raleway|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans|Lato|Open+Sans');
 
 /*#wrapper{
-	width: 900px;
+	width: 960px;
 	margin: 0 auto;
 }*/
 
 body{
-	background-color: yellow;
+	background-color: #fff;
 	color: black;
-	font-family:'Verdana', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	font-size: 20px;
 	font height: 2em;
 }
 
 header{
-	background-color:#FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	clear: both;
+    overflow: auto;
+}
+
+nav{
+	background-color: #000;
+}
+
+nav a{
+	background-color: #000;
+	  color: white;
+	  text-decoration: none;
+	  font-size: 25px;
+	  display: block;
+	  float: right;
+	  padding: 20px;
+}
+
+#logo{
+	float: left;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+nav a:hover{
+	color: blue;
 }
 
 #hero{
@@ -31,14 +62,27 @@ header{
 
 }
 
+#hero_text{
+	font-weight: 600;
+}
+
+.cta{
+	border:3px black solid;
+	padding: 10px 20px;
+	margin: 0 auto;
+	text-decoration: none;
+	color: White;
+	background-color: black;
+}
+
 #about{
-	background-color:#E89C1C;
+	background-color:#ccc;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 #info{
-	background-color: ;
+	background-color: #000 ;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -54,15 +98,29 @@ header{
 }
 
 article{
-	background-color:#E89C6C;
+	background-color:#aaa;
+	border: 1px black solid;
+	padding: 20px;
+	width: 560px;
+	float: right;
+	margin: 0 0 0 30px;
+	display: inline-block;
+}
+
+aside{
+	margin: 0 0 0 20px;
+	width: 240px;
+	clear: both;
+}
+
+#reviews{
+	background-color:#ccc;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-#reviews{
-	background-color:#FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
+#reviews p{
+	text-align: center;
 }
 
 #facebook_1{
@@ -74,42 +132,45 @@ article{
 }
 
 #events{
-	background-color:#FFE2B8;
+	background-color:#000;
 	border: 1px black solid;
 	padding: 20px;
+	color:#ccc;
 }
 
 .events{
 	padding:20px;
 	width: 100px;
 	height:80px;
-	border:3px solid black;
+	border:3px solid #ccc;
+	color: #ccc;
 	margin: 20px;
 	text-align:center;
 	display: inline-block;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 3px 3px 3px #fff;
 }
 
-#scheduling{
+/*#scheduling{
 	border: 1px black solid;
 	padding: 20px;
 	display: block;
 	float: right;
 }
-
+*/
 #contact{
-	border: 1px black solid;
+	border: 1px black;
 	padding: 20px;
+	background-color: #ccc;
 }
 
-#google_maps{
+/*#google_maps{
 	display: inline-block;
 	text-align: center;
 	background-color:#FFC675;
 	border: 1px black solid;
 	padding: 20px;
 
-}
+}*/
 
 #contact_info{
 	background-color:#E89C6C;
@@ -118,14 +179,20 @@ article{
 	margin: 0 auto;
 	display: inline-block;
 	float: center
+}
 
-
+#img_main{
+	height:100px;
 }
 
 footer{
-	background-color:#FF957E;
+	background-color:#000;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+footer p{
+	color: white;
 }
 
 .sm_icon{
@@ -134,8 +201,5 @@ footer{
 
 
 /*INDIVIDUAL ELEMENTS*/
-h1,h2,h3{
-	font-family: 'Georgia', serif;
-	font-weight: bold;
-}
+
 
