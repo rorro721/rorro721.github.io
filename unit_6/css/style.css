@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans|Lato|Open+Sans');
+* { margin:0; padding:0; box-sizing:border-box; }
 
-/*#wrapper{
-	width: 960px;
+#wrapper{
+	width: 100%;
 	margin: 0 auto;
-}*/
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
 
 body{
 	background-color: #fff;
@@ -16,20 +25,25 @@ body{
 header{
 	clear: both;
     overflow: auto;
+    background-color: black;
+}
+header a{
+	background-color: black;
 }
 
 nav{
-	background-color: #000;
+	float: right;
+	padding-top: 2em;
 }
 
 nav a{
 	background-color: #000;
 	  color: white;
 	  text-decoration: none;
-	  font-size: 25px;
-	  display: block;
-	  float: right;
-	  padding: 20px;
+	  font-size: 20px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  border-right: 1px solid #ccc;
 }
 
 #logo{
@@ -37,14 +51,6 @@ nav a{
 }
 
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
 
 nav a:hover{
 	color: blue;
@@ -54,8 +60,7 @@ nav a:hover{
 	background: url("../images/image_asset1.jpg");
 	background-repeat: no-repeat;
 	background-color: #E8C66A; 
-	padding: 20px;
-	border: 1px black solid;
+	padding: 10px;
 	margin: auto;
 	height: 800px;
 	text-align: center;
@@ -64,6 +69,7 @@ nav a:hover{
 
 #hero_text{
 	font-weight: 600;
+	padding: 80px 0 20px 0;
 }
 
 .cta{
@@ -75,79 +81,89 @@ nav a:hover{
 	background-color: black;
 }
 
+.cta:hover{
+	color: blue;
+}
+
 #about{
-	background-color:#ccc;
-	border: 1px black solid;
+	background-color:#000;
 	padding: 20px;
+	color: #ccc;
+	text-align: center;
 }
 
 #info{
-	background-color: #000 ;
-	border: 1px black solid;
-	padding: 20px;
+	width: 100%;
+	margin: 0, auto;
+	background-color: #ccc;
 }
 
-.image_set1 {
-	height:400px;
-	width: 400px;
-	margin: auto;
-	border: 1px black solid;
-	padding: 20px;
-	background-color: #FFC675;
 
-}
-
-article{
-	background-color:#aaa;
-	border: 1px black solid;
-	padding: 20px;
-	width: 560px;
+#info div{
+	background-color:#ccc;
+	padding-right: 200px;
+	width: 62%;
 	float: right;
 	margin: 0 0 0 30px;
-	display: inline-block;
+	text-align: center
+	color: white;
+	display: block;
+	overflow: auto;
 }
 
-aside{
-	margin: 0 0 0 20px;
-	width: 240px;
-	clear: both;
+#info div img{
+	float: left;
+	width: 45%;
+	height: 45%;
+	margin: 0 auto;
+	padding-right: 100px;
 }
+
+#info div p{
+	padding-left: 400px
+}
+
+
 
 #reviews{
-	background-color:#ccc;
+	background-color:#000;
 	border: 1px black solid;
 	padding: 20px;
+	display: inline-block;
+
 }
 
 #reviews p{
 	text-align: center;
+	color: #ccc;
 }
 
 #facebook_1{
+	float: right;
+	padding-right: 400px;
 
 }
 
 #facebook_2{
-
+	float: left;
 }
 
 #events{
-	background-color:#000;
+	background-color:#ccc;
 	border: 1px black solid;
 	padding: 20px;
-	color:#ccc;
+	text-align: center;
 }
 
 .events{
 	padding:20px;
 	width: 100px;
 	height:80px;
-	border:3px solid #ccc;
-	color: #ccc;
+	border:3px solid #000;
+	color: #000;
 	margin: 20px;
-	text-align:center;
 	display: inline-block;
-	box-shadow: 3px 3px 3px #fff;
+	box-shadow: 3px 3px 3px #000;
 }
 
 /*#scheduling{
@@ -160,7 +176,9 @@ aside{
 #contact{
 	border: 1px black;
 	padding: 20px;
-	background-color: #ccc;
+	background-color: #000;
+	overflow: auto;
+	color: #ccc;
 }
 
 /*#google_maps{
@@ -173,14 +191,16 @@ aside{
 }*/
 
 #contact_info{
-	background-color:#E89C6C;
-	border: 1px black solid;
+	border: 1px #ccc solid;
 	padding: 20px;
 	margin: 0 auto;
 	display: inline-block;
-	float: center
+	float: right;
 }
 
+#partners{
+	background-color: #ccc;
+}
 #img_main{
 	height:100px;
 }
