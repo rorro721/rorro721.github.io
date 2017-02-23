@@ -50,8 +50,6 @@ nav a{
 	float: left;
 }
 
-
-
 nav a:hover{
 	color: blue;
 }
@@ -62,7 +60,7 @@ nav a:hover{
 	background-color: #E8C66A; 
 	padding: 10px;
 	margin: auto;
-	height: 800px;
+	height: 650px;
 	text-align: center;
 
 }
@@ -101,10 +99,8 @@ nav a:hover{
 
 #info div{
 	background-color:#ccc;
-	padding-right: 200px;
 	width: 62%;
-	float: right;
-	margin: 0 0 0 30px;
+	margin: 0 auto;
 	text-align: center
 	color: white;
 	display: block;
@@ -119,34 +115,37 @@ nav a:hover{
 	padding-right: 100px;
 }
 
-#info div p{
-	padding-left: 400px
-}
-
 
 
 #reviews{
 	background-color:#000;
-	border: 1px black solid;
-	padding: 20px;
-	display: inline-block;
+	overflow: auto;
+
 
 }
 
-#reviews p{
+#reviews h2{
 	text-align: center;
 	color: #ccc;
 }
 
-#facebook_1{
-	float: right;
+#reviews iframe{
+	display: block;
+	margin: 0 auto;
+	float: none;
+
+}
+
+
+/*#facebook_1{
+	float: left;
 	padding-right: 400px;
 
 }
 
 #facebook_2{
 	float: left;
-}
+}*/
 
 #events{
 	background-color:#ccc;
@@ -174,35 +173,27 @@ nav a:hover{
 }
 */
 #contact{
-	border: 1px black;
-	padding: 20px;
 	background-color: #000;
-	overflow: auto;
+	display: inline;
+	margin: 0 auto;
+}
+
+#google_maps{
+}
+
+#contact_info{
+	height: 350px;
+	background-color: #000;
 	color: #ccc;
 }
 
-/*#google_maps{
-	display: inline-block;
-	text-align: center;
-	background-color:#FFC675;
-	border: 1px black solid;
-	padding: 20px;
-
-}*/
-
-#contact_info{
-	border: 1px #ccc solid;
-	padding: 20px;
-	margin: 0 auto;
-	display: inline-block;
-	float: right;
+#contact_info a{
+	text-decoration: none;
 }
 
 #partners{
 	background-color: #ccc;
-}
-#img_main{
-	height:100px;
+	text-align: center;
 }
 
 footer{
@@ -212,11 +203,11 @@ footer{
 }
 
 footer p{
-	color: white;
+	color: #ccc;
 }
 
 .sm_icon{
-
+	padding-top: 20px;
 }
 
 
